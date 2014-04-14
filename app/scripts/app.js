@@ -14,4 +14,8 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       });
+  })
+  .config(function ($locationProvider) {
+    $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('!');
   });
