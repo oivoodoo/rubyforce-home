@@ -427,4 +427,6 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.loadTasks('grunt-angular-templates');
 };
