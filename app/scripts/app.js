@@ -5,7 +5,8 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'scrollto'
   ])
   .config(function ($routeProvider) {
     $routeProvider
