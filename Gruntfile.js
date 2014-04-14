@@ -428,9 +428,7 @@ module.exports = function (grunt) {
     'build'
   ]);
 
-<<<<<<< HEAD
   grunt.loadTasks('grunt-angular-templates');
-=======
+  
   grunt.registerTask('heroku:production' , 'build');
->>>>>>> 58a4360d25541017bcf647ffef7e66bf5284de74
 };
