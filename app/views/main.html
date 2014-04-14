@@ -31,7 +31,7 @@
                         <a href="#about">ABOUT</a>
                     </li>    
                     <li>
-                        <a href="contact/index.html">HIRE US</a>
+                        <a href="#contact">HIRE US</a>
                     </li> 
                 </ul>
             </div>
@@ -365,6 +365,98 @@
             
         </section>
         <!-- End About Section -->
+        
+        <!-- Contact Section -->
+        <section id="contact">
+             
+            <div class="container">
+                <div class="row text-center"> 
+                    <div class="col-sm-12"> 
+                        <h1 class="heading-large section-color-1">HIRE US</h1>
+                    </div>
+                    <div class="col-sm-12"> 
+                        <p class="text-large section-color-1">
+                            If you would like to order a custom package, request a quote on a project or any other queries,<br>
+                            feel free to send us a message either by our contact form or contact details below.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row text-center">
+                
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="form-container">
+                            
+                            <!-- Contact Form -->
+                            <form id="contact_form" action="email.php" method="post" name="contactform">
+                                <div class="form-group">
+                                    <i class="fa fa-user"></i>
+                                    <input id="name" name="name" type="text" class="form-control" placeholder="Full Name*">
+                                </div> 
+                                <div class="form-group">
+                                    <i class="fa fa-pencil"></i>
+                                    <input id="subject" name="subject" type="text" class="form-control" placeholder="Subject*">
+                                </div> 
+                                <div class="form-group">
+                                    <i>@</i>
+                                    <input id="email" name="email" type="text" class="form-control" placeholder="Email Address*">
+                                </div> 
+                                <div class="form-group">
+                                    <i class="fa fa-envelope"></i>
+                                    <textarea name="message" id="message" class="form-control" rows="7" placeholder="Message*"></textarea>
+                                </div> 
+                                <div class="form-group">
+                                    <button id="send_message" type="submit" class="btn btn-1" value="Submit">Submit Your Message</button>
+                                </div> 
+                            </form>
+                            <!-- End Contact Form -->
+                            
+                            <!-- Success Message -->
+                            <div class="message-sent"> 
+                                <div>
+                                    <h2 class="section-color-1">Message Was Sent Successfully!</h2>
+                                </div>
+                            </div>
+                            <!-- End Success Message -->
+                            
+                        </div>
+                    </div>  
+                    
+                    <div class="clearfix"></div>
+                    
+                    <div class="col-sm-12 section-color-1"> 
+                        
+                        <ul class="contact-details">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <h2> 46 Gray's Inn Rd, London, WC1X 8LP</h2>
+                                <i class="fa fa-map-marker"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <h2>spam@ztapps.com</h2>
+                                <i class="fa fa-envelope-o"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <h2>(123) 456 - 7890</h2>
+                                <i class="fa fa-phone"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-mobile"></i>
+                                <h2>(123) 456 - 7890</h2>
+                                <i class="fa fa-mobile"></i>
+                            </li>
+                        </ul>
+                         
+                    </div> 
+                    
+                </div>
+                
+            </div> 
+        
+        </section>
+        <!-- End Contact Section -->
         
         <!-- Footer Section -->
         <footer>
