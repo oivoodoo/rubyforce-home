@@ -8,17 +8,17 @@
 		<title>Achieve - Portfolio | Portfolio Template</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<meta name="author" content="ZTApps" />
-		<link rel="shortcut icon" href="../images/favicon.png">
-        
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-        <!-- End Fonts -->
-        
-        <!-- CSS Files -->
-		<link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="../styles/font-awesome.min.css" /> 
-		<link rel="stylesheet" type="text/css" href="../styles/style.css" />
+		<link rel="shortcut icon" href="images/favicon.png">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="/../bower_components/sass-bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css({.tmp,app}) styles/main.css -->
+        <link rel="stylesheet" href="/../bower_components/sass-bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/../bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/../styles/style.css" />
         <!-- End CSS Files -->
          
 	</head>
@@ -260,8 +260,6 @@
                     
                     <div class="col-sm-12"> 
                         <p>
-                            Achieve made by <a href="http://www.ztapps.com">ZTApps</a>.<br>
-                            Copyright &copy; 2013, All Rights Reserved
                         </p>
                     </div>
                     
@@ -278,8 +276,17 @@
         <!-- End Footer Section -->
     
         <!-- Scripts Section -->
-        <script src="/../scripts/jquery.1.10.1.js"></script>
-        <script src="/../scripts/smoothscroll.js"></script>
+        <script src="/../bower_components/jquery/dist/jquery.js"></script>
+        <script src="/../bower_components/angular/angular.js"></script>
+        <script src="/../bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/../bower_components/angular-resource/angular-resource.js"></script>
+        <script src="/../bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="/../bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="/../bower_components/angular-route/angular-route.js"></script>
+        <script src="/../bower_components/angular-scrollto/angular-scrollto.js"></script>
+
+        <script src="/../scripts/app.js"></script>
+        <script src="/../scripts/controllers/main.js"></script>
         <script src="/../scripts/jquery.mixitup.js"></script>
 
         <script>
