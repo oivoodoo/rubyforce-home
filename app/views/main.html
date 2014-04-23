@@ -28,7 +28,7 @@
       </a>
       </li>
       <li>
-      <a href="" scroll-to="#about h1">ABOUT</a>
+      <a href="" scroll-to="#about span">ABOUT</a>
       </li>
       <li>
       <a href="" scroll-to="#contact h1">HIRE US</a>
@@ -424,32 +424,34 @@
 
 <section id="skills" style="padding: 50px 0;">
     
-      <div class="container">
-      
-        <div class="row skills">
+  <div class="container">
+  
+    <div class="row skills">
 
-          <div class="col-sm-6 col-md-3 text-center">
-            <span class="chart" data-percent="80"><span class="percent">80</span></span>
-            <h2 class="text-center">Web Design</h2>
-          </div>
-          <div class="col-sm-6 col-md-3 text-center">
-            <span class="chart" data-percent="70"><span class="percent">70</span></span>
-            <h2 class="text-center">HTML / CSS</h2>
-          </div>
-          <div class="col-sm-6 col-md-3 text-center">
-            <span class="chart" data-percent="60"><span class="percent">60</span></span>
-            <h2 class="text-center">Graphic Design</h2>
-          </div>
-          <div class="col-sm-6 col-md-3 text-center">
-            <span class="chart" data-percent="90"><span class="percent">90</span></span>
-            <h2 class="text-center">UI / UX</h2>
-          </div>
-          
-        </div><!--End row -->
-        
-      </div><!--End container -->
+      <div class="col-sm-6 col-md-3 text-center">
+        <span class="chart" data-percent="80"><span class="percent">80</span></span>
+        <h2 class="text-center">Web Design</h2>
+      </div>
+      <div class="col-sm-6 col-md-3 text-center">
+        <span class="chart" data-percent="70"><span class="percent">70</span></span>
+        <h2 class="text-center">HTML / CSS</h2>
+      </div>
+      <div class="col-sm-6 col-md-3 text-center">
+        <span class="chart" data-percent="60"><span class="percent">60</span></span>
+        <h2 class="text-center">Graphic Design</h2>
+      </div>
+      <div class="col-sm-6 col-md-3 text-center">
+        <span class="chart" data-percent="90"><span class="percent">90</span></span>
+        <h2 class="text-center">UI / UX</h2>
+      </div>
       
-    </section><!--End skills section -->
+    </div><!--End row -->
+    
+  </div><!--End container -->
+  
+</section>
+
+<!--End skills section -->
 
 <!-- Contact Section -->
 <section id="contact">
@@ -604,7 +606,7 @@
         <ul class="subnav list-inline">
           <li><a href="" scroll-to="#services h1">Services</a></li>
           <li><a href="" scroll-to="#portfolio h1">Portfolio</a></li>
-          <li><a href="" scroll-to="#about h1">About</a></li>
+          <li><a href="" scroll-to="#about span">About</a></li>
           <li><a href="" scroll-to="#contact h1">Hire Us</a></li>
         </ul>
       </div>
@@ -627,14 +629,14 @@
 
 <script type="text/javascript">
 $(function() {
-    var aboutColor = $('#about').css('backgroundColor');
-    $('.chart').easyPieChart({
-        size:170,
-        animate: 2000,
-        lineCap:'butt',
-        scaleColor: false,
-        barColor: aboutColor,
-        lineWidth: 10
-    });
+  var aboutColor = $('#about').css('backgroundColor');
+  $('.chart').easyPieChart({
+    size:170,
+    animate: 2000,
+    lineCap:'butt',
+    scaleColor: false,
+    barColor: aboutColor,
+    lineWidth: 10
+  });
 });
 </script>
